@@ -1,0 +1,50 @@
+
+STUDENT GRADE CALCULATOR - TEST CASES
+
+Test 1: Grade A
+Input marks: 95
+Expected grade: A
+
+Test 2: Grade B
+Input marks: 85
+Expected grade: B
+
+Test 3: Grade C
+Input marks: 75
+Expected grade: C
+
+Test 4: Grade D
+Input marks: 65
+Expected grade: D
+
+Test 5: Grade F
+Input marks: 40
+Expected grade: F
+
+Test 6: Minimum valid marks
+Input marks: 0
+Expected grade: F
+
+Test 7: Maximum valid marks
+Input marks: 100
+Expected grade: A
+
+Test 8: Invalid marks above range
+Input marks: 105
+Expected result: Display validation error and ask again.
+
+Test 9: Invalid negative marks
+Input marks: -5
+Expected result: Display validation error and ask again.
+
+Test 10: Non-numeric input
+Input marks: abc
+Expected result: Display numeric input error and ask again.
+
+Test 11: Decimal marks
+Input marks: 89.5
+Expected grade: B
+
+Test 12: Empty student name
+Input name: [empty]
+Expected result: Ask for the name again.
